@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.letter {
+  text-align: center;
+  height: 70px;
+  width: 70px;
+  padding: 5px;
+  margin: 4px;
+  background-color: #696054;
+  cursor: grab;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: black; }
+
+.dragfield, .dropfield {
+  padding: 50px;
+  border: 2px dashed #a03636;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  position: relative; }
+
+.dropfield .number-box {
+  flex-wrap: wrap;
+  min-height: 200px;
+  width: 30%;
+  border: 1px solid #8a8080;
+  position: relative;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  transition: all 0.2s ease-in-out; }
+.dropfield .letter {
+  width: 20px;
+  height: 20px;
+  line-height: 5px;
+  border: 1px solid #8a8080;
+  text-align: center;
+  font-size: 0.5em;
+  color: #8a8080;
+  background-color: transparent; }
+
+/*# sourceMappingURL=style.css.map */
